@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Employee-Form-in-ReactJS-Hooks-Concept-/static/css/main.b0f230ab.css",
+    "main.js": "/Employee-Form-in-ReactJS-Hooks-Concept-/static/js/main.aedae70b.js",
+    "index.html": "/Employee-Form-in-ReactJS-Hooks-Concept-/index.html",
+    "main.b0f230ab.css.map": "/Employee-Form-in-ReactJS-Hooks-Concept-/static/css/main.b0f230ab.css.map",
+    "main.aedae70b.js.map": "/Employee-Form-in-ReactJS-Hooks-Concept-/static/js/main.aedae70b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0f230ab.css",
+    "static/js/main.aedae70b.js"
+  ]
+}
