@@ -28,6 +28,7 @@ const EmployeeForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    window.alert("Form submitted Successfully")
     console.log(formData);
   };
 
@@ -117,7 +118,7 @@ const EmployeeForm = () => {
       <div>
         <label>Start Time</label>
         <input type='time'
-         name='start-time'
+         name='starttime'
          value={formData.starttime}
          onChange={handleChange}
          required />
@@ -126,7 +127,7 @@ const EmployeeForm = () => {
       <div>
         <label>End Time</label>
         <input type='time'
-         name='end-time'
+         name='endtime'
          value={formData.endtime}
          onChange={handleChange}
          required />
@@ -147,7 +148,7 @@ const EmployeeForm = () => {
       <div>
         <label>Select Teams</label>
         <select
-          name="department"
+          name="teams"
           value={formData.teams}
           onChange={handleChange}
           required
@@ -179,6 +180,7 @@ const EmployeeForm = () => {
       <div>
         <label>Billable Hours</label>
         <input type='number'
+        name='Billablehours'
         value={formData.Billablehours}
         onChange={handleChange}
         required />
@@ -202,3 +204,4 @@ const EmployeeForm = () => {
 };
 
 export default EmployeeForm;
+
